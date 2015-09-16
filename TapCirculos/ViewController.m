@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TapCirculo.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void) loadView{
+    TapCirculo *c     = [[TapCirculo alloc] init];
+    c.backgroundColor = [UIColor blackColor];
+    self.view         = c;
 }
 
 @end

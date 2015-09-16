@@ -14,6 +14,8 @@
 		61EEE97F1BA8AEA4002F8B2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61EEE97E1BA8AEA4002F8B2C /* Images.xcassets */; };
 		61EEE9821BA8AEA4002F8B2C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61EEE9801BA8AEA4002F8B2C /* LaunchScreen.xib */; };
 		61EEE98E1BA8AEA4002F8B2C /* TapCirculosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EEE98D1BA8AEA4002F8B2C /* TapCirculosTests.m */; };
+		61EEE9991BA8AEDB002F8B2C /* TapCirculo.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EEE9981BA8AEDB002F8B2C /* TapCirculo.m */; };
+		61EEE99B1BA9AA8B002F8B2C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 61EEE99A1BA9AA8B002F8B2C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		61EEE9871BA8AEA4002F8B2C /* TapCirculosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapCirculosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61EEE98C1BA8AEA4002F8B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61EEE98D1BA8AEA4002F8B2C /* TapCirculosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapCirculosTests.m; sourceTree = "<group>"; };
+		61EEE9971BA8AEDB002F8B2C /* TapCirculo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapCirculo.h; sourceTree = "<group>"; };
+		61EEE9981BA8AEDB002F8B2C /* TapCirculo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapCirculo.m; sourceTree = "<group>"; };
+		61EEE99A1BA9AA8B002F8B2C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 		61EEE9651BA8AEA4002F8B2C = {
 			isa = PBXGroup;
 			children = (
+				61EEE99A1BA9AA8B002F8B2C /* README.md */,
 				61EEE9701BA8AEA4002F8B2C /* TapCirculos */,
 				61EEE98A1BA8AEA4002F8B2C /* TapCirculosTests */,
 				61EEE96F1BA8AEA4002F8B2C /* Products */,
@@ -89,6 +95,8 @@
 				61EEE97E1BA8AEA4002F8B2C /* Images.xcassets */,
 				61EEE9801BA8AEA4002F8B2C /* LaunchScreen.xib */,
 				61EEE9711BA8AEA4002F8B2C /* Supporting Files */,
+				61EEE9971BA8AEDB002F8B2C /* TapCirculo.h */,
+				61EEE9981BA8AEDB002F8B2C /* TapCirculo.m */,
 			);
 			path = TapCirculos;
 			sourceTree = "<group>";
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61EEE99B1BA9AA8B002F8B2C /* README.md in Resources */,
 				61EEE97D1BA8AEA4002F8B2C /* Main.storyboard in Resources */,
 				61EEE9821BA8AEA4002F8B2C /* LaunchScreen.xib in Resources */,
 				61EEE97F1BA8AEA4002F8B2C /* Images.xcassets in Resources */,
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61EEE97A1BA8AEA4002F8B2C /* ViewController.m in Sources */,
+				61EEE9991BA8AEDB002F8B2C /* TapCirculo.m in Sources */,
 				61EEE9771BA8AEA4002F8B2C /* AppDelegate.m in Sources */,
 				61EEE9741BA8AEA4002F8B2C /* main.m in Sources */,
 			);
